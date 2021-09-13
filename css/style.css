@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  background-color: white;
+}
+.bgMyHead {
+  box-shadow: 0 0 8px 4px rgb(197, 195, 195);
+}
+.myHead {
+  height: 90px;
+}
+.myHead .logo {
+  margin-left: 70px;
+  padding: 15px 10px;
+}
+.myHead img {
+  width: 60px;
+}
+.myUlTag {
+  position: absolute;
+  top: 0;
+  right: 70px;
+  height: 90px;
+  flex-direction: row;
+  margin-right: 50px;
+}
+#showLink {
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  font-size: 2rem;
+  color: #005266;
+  display: none;
+  cursor: pointer;
+}
+.myUlTag li {
+  list-style: none;
+}
+.myUlTag li a {
+  color: #005266;
+  padding: 37px 30px;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.myUlTag li a:hover {
+  background-color: #005266;
+  color: white;
+}
+.myUlTag2 {
+  position: absolute;
+  top: 90px;
+  left: 66px;
+  background-color: white;
+  z-index: 10;
+  margin: 0 auto;
+  padding: 10px 20px;
+  flex-direction: column;
+  box-shadow: 0 0 10px 5px rgba(199, 199, 199, 0.5);
+  display: none;
+  transition: all 0.3s;
+  padding-top: 50px;
+}
+.myUlTag2 li {
+  line-height: 40px;
+}
+.myUlTag2 li a {
+  text-align: center;
+  line-height: 10px;
+  display: block;
+  width: 160px;
+  padding: 20px 0;
+  color: #005266;
+  font-weight: 700;
+}
+.infrontOfMenu {
+  margin-left: 10px;
+  font-size: 1rem;
+}
+.exit {
+  color: #005266;
+  font-size: 1.5rem;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10;
+  top: 5px;
+  padding: 5px;
+  left: 10px;
+  transition: all 0.3s;
+  background-color: #ffffff;
+  box-shadow: 0 0 8px 4px #eee;
+}
+.exit:hover {
+  background-color: #005266;
+  border-radius: 4px;
+  color: white;
+}
+.box1 {
+  width: 600px;
+  height: 350px;
+  margin-top: 20px;
+}
+.box1 h1 {
+  font-size: 3.5rem;
+  letter-spacing: 1.2px;
+  color: #005266;
+  font-weight: 600;
+}
+.box1 h2 {
+  font-size: 3.5rem;
+  letter-spacing: 1.2px;
+  color: #005266;
+  font-weight: 600;
+}
+.box1 h2 span {
+  font-size: 4rem;
+  color: #003d4d;
+  font-weight: 800;
+}
+.box1 p {
+  font-size: 1rem;
+  color: #005266;
+  font-weight: 500;
+  text-align: left;
+  line-height: 18px;
+  width: 530px;
+  margin-bottom: 30px;
+}
+.box1 a {
+  background-color: #005266;
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 12px 20px;
+  font-size: 1.4rem;
+  font-weight: 800;
+  border: 2px solid #005266;
+  border-radius: 10px;
+  transition: all 0.3s;
+}
+.box1 a:hover {
+  background-color: white;
+  color: #005266;
+  border: 2px solid #005266;
+}
+.images {
+  width: 570px;
+  height: 490px;
+  background-color: #03643c;
+  margin-top: 80px;
+  border-top-left-radius: 150%;
+}
+.images img {
+  position: absolute;
+  top: 50px;
+  left: 80px;
+}
+.images #img3,
+#img2 {
+  display: none;
+}
+.icons {
+  position: absolute;
+  top: 250px;
+  right: 10px;
+  flex-direction: column;
+}
+.icons .fab {
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin: 10px 5px;
+  cursor: pointer;
+}
+.bottomBtn {
+  position: absolute;
+  top: 570px;
+  left: 0;
+}
+.bottomBtn img {
+  margin: 0px 35px;
+  width: 60px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.bottomBtn img:hover {
+  transform: translateY(-18px);
+}
